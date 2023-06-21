@@ -1,0 +1,688 @@
+@media screen and (min-width:770px){
+body{
+background-color: #C7B299;
+font-family:century gothic ;
+}
+
+header{
+text-align: center;
+/* justify-content: space-between; */
+/* padding: 10px; */
+}
+
+header p {
+    text-align: center;
+    font-size: 2rem;
+    padding: 200px;
+}
+
+
+
+h1{
+    font-size: 112px;
+    color: white;
+    font-weight: bold;
+}
+
+h2{
+    font-weight: bold;
+}
+
+#corazon{
+    text-align: center;
+}
+
+ main{
+    width: 100%;
+    margin: auto;
+ }
+
+h3{
+    font-size: 6rem;
+    text-align: center;
+    font-weight: bold;
+}
+
+
+
+#thanos{
+    background-color: #66FF00;
+    text-align: center;
+    font-size: 2rem;
+    padding: 200px; 
+    
+}
+
+#carousel {
+    /* width: 100%;
+    height: 150px; */
+    text-align: center;
+    /* border: 10px solid green; */
+}
+
+#nutricion {
+    padding-top: 100px;
+}
+
+#video iframe {
+    text-align: center;
+    width: 560px; 
+    height: 315px; 
+    margin-left: 400px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+#actividadfisica p {
+    background-color: #003366;
+    color:white;
+    font-size: 2rem;
+    padding: 200px; 
+}
+
+
+#bienestar p {
+    background-color: #003300;
+    color:white;
+    font-size: 2rem;
+    padding: 200px; 
+}
+
+.gentesonriendo{
+    text-align: center;
+}
+
+#recetas p {
+    background-color: #a77f12;
+    color:white;
+    font-size: 2rem;
+    padding: 200px; 
+}
+
+#cartas {
+display: flex;
+justify-content: space-evenly;
+text-align: center;
+margin-top: 2rem;
+}
+
+
+#comunidad {
+    padding-top: 100px;
+}
+
+#comunidad p {
+    font-size: 2rem;
+    padding: 200px; 
+}
+
+form{
+    padding: 50px 55px;
+    box-shadow: 0 0 20px rgb(0, 0, 0, 0.2);
+    border-radius: 20px;
+    text-align: center;
+    width: 640px;
+    background-color: #0F0902;
+    margin: auto;
+    margin-bottom: 50px;
+    }
+
+    .input-group{
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+    }
+    label{
+        color:white;
+        font-size: 15px;
+        font-weight: 600;
+        margin-bottom: 15px;
+    }
+    input{
+    padding: 17px 25px;
+    border-radius: 25px;
+    margin-bottom: 20px;
+    background-color: white;
+    border: 2px solid black;
+    color: #000;
+    outline: none;
+    
+    }
+    
+    input ::placeholder{
+        color: #000;
+    }
+    
+    .form-txt{
+        margin-bottom: 30px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    }
+    .form-txt a{
+        color: white;
+        font-size: 14px;
+        font-weight: 600;
+        text-decoration: none;
+    }
+    .btn{
+        font-size: 16px;
+        color:#000;
+        border: 0;
+        border-radius: 25px;
+        background-color:white;
+        cursor: pointer;
+        box-shadow: 0 0 20px rgb(25, 254, 0, 0.4);
+    }
+    .btn:hover{
+        background-color: rgb(2, 40, 255);
+    }
+   
+#salud2{
+    color: white;
+}
+
+
+footer {
+    padding: 1rem;
+    background-color: #544F44;
+    border-radius: 5px;
+   border-style: solid;
+    
+  }
+
+  footer p {
+  color: white;
+  }
+
+  footer h3 {
+    color: white;
+  }
+
+
+  .iconits{
+
+  text-align: left;
+
+  }
+
+}
+
+    
+/* tablet */
+@media screen and (min-width:591px) and (max-width:769px) {
+    
+    body{
+        background-color: #C7B299;
+        font-family:century gothic ;
+        }
+        
+    
+    header{
+        text-align: center;
+       
+        }
+
+        header p {
+            text-align: center;
+            font-size: 1rem;
+            padding: 100px;
+        
+        }
+         
+        h1{
+            font-size: 70px;
+            color: white;
+            font-weight: bold;
+        }
+
+        #corazon{
+            text-align: center;
+            position: relative;
+            padding: 50px;
+            margin: auto;
+            margin-left: -441px;
+  
+        }
+
+     h2{
+        font-weight: bold;
+          }
+
+          main{
+            width: 50%;
+            margin: 0 auto;
+         }
+
+         h3{
+            font-size: 3rem;
+            text-align: center;
+            font-weight: bold;
+        }  
+
+        #video iframe{
+            padding-top: 3rem;
+            width: 100%;
+            height: 600px;
+            border: initial;
+        }
+
+        #thanos{
+            background-color: #66FF00;
+            font-size: 1rem;
+            text-align: center;
+            width: 700px;
+            margin: auto;
+            padding: 100px; 
+        }
+
+        #carousel {
+             width: 730px;           
+            text-align: center;
+            
+        }
+        
+#nutricion {
+    padding-top: 100px;
+
+}
+
+#nutricion p{
+    text-align: center;
+    /* border: 2px solid green; */
+    margin-right: 100px;
+
+}
+
+
+
+#actividadfisica p{
+    background-color: #003366;
+    color:white;
+    font-size: 1rem;
+   margin: auto;
+   width: 700px;
+    padding: 100px; 
+    text-align: center;
+    margin-right: 100px
+}
+
+#actividadfisica h3 {
+    text-align: center;
+}
+
+
+#bienestar p {
+    background-color: #003300;
+    color:white;
+    font-size: 1rem;
+    padding: 100px;
+
+    width: 700px;
+    text-align: center;
+    /* border: 2px solid green; */
+    margin-right: 100px
+
+}
+
+#bienestar h3 {
+    text-align: center;
+}
+
+.gentesonriendo{
+    padding: 50px;
+    text-align: center;
+    margin: 0;
+    height:auto;
+    width: 300px;
+}
+
+
+#recetas p {
+    background-color: #a77f12;
+    color:white;
+    font-size: 1rem;
+    padding: 100px; 
+    margin-left: -50px;
+    width: 700px;
+    text-align: center;
+}
+
+#cartas {
+    display: block;
+    padding:10px;
+    text-align: center;
+    margin-left:160px;
+
+    
+    }
+
+    #comunidad {
+        padding-top: 100px;
+    }
+    
+    #comunidad p {
+        font-size: 1rem;
+        padding: 50px; 
+        text-align: center;
+    }
+    form{
+        padding: 50px 55px;
+        box-shadow: 0 0 20px rgb(0, 0, 0, 0.2);
+        border-radius: 20px;
+        text-align: center;
+        width: 600px;
+        background-color: #0F0902;
+        margin: auto;
+        margin-bottom: 60px;
+        }
+    
+        .input-group{
+            display: flex;
+            flex-direction: column;
+            text-align: left;
+        }
+        label{
+            color:white;
+            font-size: 15px;
+            font-weight: 600;
+            margin-bottom: 15px;
+        }
+        input{
+        padding: 17px 25px;
+        border-radius: 25px;
+        margin-bottom: 20px;
+        background-color: white;
+        border: 2px solid black;
+        color: #000;
+        outline: none;
+        
+        }
+        
+        input ::placeholder{
+            color: #000;
+        }
+        
+        .form-txt{
+        margin-bottom: 30px;
+        display: flex;
+        justify-content: space-between;
+        text-align: center;
+        }
+        .form-txt a{
+            color: white;
+            font-size: 14px;
+            font-weight: 600;
+            text-decoration: none;
+        }
+        .btn{
+            font-size: 16px;
+            color:#000;
+            border: 0;
+            border-radius: 25px;
+            background-color:white;
+            cursor: pointer;
+            box-shadow: 0 0 20px rgb(25, 254, 0, 0.4);
+        }
+        .btn:hover{
+            background-color: rgb(2, 40, 255);
+        }
+
+    #salud2{
+        color: white;
+    }
+    
+    
+    footer{
+        margin: auto;
+        padding: 10px;
+        background-color: #544F44;
+       
+        
+      }
+    
+      footer p {
+      color: white;
+      }
+    
+      footer h3 {
+        color: white;
+      }
+    
+    
+      .iconits{
+    
+      text-align: left;
+    
+      }
+}
+/* mobile */
+@media screen and (max-width:590px){
+    
+    body{
+        background-color: #C7B299;
+        font-family:century gothic ;
+        }
+        
+
+    header{
+        text-align: center;
+       padding: 0;
+       margin: auto;
+        }
+
+        header p {
+            text-align: center;
+            font-size: 1rem;
+            padding: 50px;
+        
+        }
+         
+        h1{
+            font-size: 30px;
+            color: white;
+            font-weight: bold;
+        }
+
+        #corazon{
+            text-align: center;
+            position: relative;
+            padding: 0;
+            margin: auto;
+            margin-left: -390px;
+        }
+
+        h2{
+    font-weight: bold;
+          }
+
+          main{
+            width: 20%;
+            margin: 0 auto;
+         }
+
+         h3{
+            font-size: 2rem;
+            text-align: center;
+            font-weight: bold;
+        }  
+
+        #video iframe{
+            text-align: center;
+            position: relative;
+           margin-top: 1rem;
+
+            padding: 0;
+            width: 565px; 
+            height: 300px;
+            margin-left: 8px;
+           
+        }
+
+        #thanos{
+            background-color: #66FF00;
+            font-size: 1rem;
+            text-align: center;
+            width: 500px;
+            margin: auto;
+            padding: 100px; 
+            
+        }
+
+        #carousel {
+             width: 565px;           
+            text-align: center;
+            margin-left: 0.45rem;
+            
+        }
+        
+#nutricion {
+    padding-top: 100px;
+}
+
+#actividadfisica p {
+    background-color: #003366;
+    color:white;
+    font-size: 1rem;
+   margin: auto;
+   width: 500px;
+    padding: 100px; 
+}
+
+
+#bienestar p {
+    background-color: #003300;
+    color:white;
+    font-size: 1rem;
+    padding: 100px;
+    margin: auto; 
+    width: 500px;
+
+}
+
+.gentesonriendo{
+    padding: 30px;
+    text-align: center;
+    margin: 0;
+
+}
+
+
+#recetas p {
+    background-color: #a77f12;
+    color:white;
+    font-size: 1rem;
+    padding: 100px; 
+    margin: auto;
+    width: 500px;
+}
+
+#cartas {
+    display: block;  
+    text-align: center;
+    justify-content: space-between;
+    width: 19rem;
+    margin-left:140px;
+    
+    }
+
+   
+
+    #comunidad {
+        padding-top: 100px;
+    }
+    
+    #comunidad p {
+        font-size: 1rem;
+        padding: 50px; 
+    }
+    form{
+        padding: 50px 55px;
+        box-shadow: 0 0 20px rgb(0, 0, 0, 0.2);
+        border-radius: 20px;
+        text-align: center;
+        width: 500px;
+        background-color: #0F0902;
+        margin: auto;
+        }
+    
+        .input-group{
+            display: flex;
+            flex-direction: column;
+            text-align: left;
+        }
+        label{
+            color:white;
+            font-size: 15px;
+            font-weight: 600;
+            margin-bottom: 15px;
+        }
+        input{
+        padding: 17px 25px;
+        border-radius: 25px;
+        margin-bottom: 20px;
+        background-color: white;
+        border: 2px solid black;
+        color: #000;
+        outline: none;
+        
+        }
+        
+        input ::placeholder{
+            color: #000;
+        }
+        
+        .form-txt{
+        margin-bottom: 30px;
+        display: flex;
+        justify-content: space-between;
+        text-align: center;
+        }
+        .form-txt a{
+            color: white;
+            font-size: 14px;
+            font-weight: 600;
+            text-decoration: none;
+        }
+        .btn{
+            font-size: 16px;
+            color:#000;
+            border: 0;
+            border-radius: 25px;
+            background-color:white;
+            cursor: pointer;
+            box-shadow: 0 0 20px rgb(25, 254, 0, 0.4);
+        }
+        .btn:hover{
+            background-color: rgb(2, 40, 255);
+        }
+
+    #salud2{
+        color: white;
+    }
+    
+    
+    footer{
+        margin: auto;
+        padding: 10px;
+        background-color: #544F44;
+       
+        
+      }
+    
+      footer p {
+      color: white;
+      }
+    
+      footer h3 {
+        color: white;
+      }
+    
+    
+      .iconits{
+    
+      text-align: left;
+    
+      }
+
+}
